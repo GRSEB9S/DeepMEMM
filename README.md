@@ -5,10 +5,10 @@ This is an implementation of a Deep Maximum Entropy Markov Model in PyTorch, tha
 You must have pytorch, nltk, numpy, and scipy installed. It uses python 2.7. 
 
 You can run the program like so to load the pre trained parameters, and run inference using Viterbi.
-`python hw2.py --best_parameters saved_model.pt`
+`python deep_memm.py --best_parameters saved_model.pt`
 
 In order to train the model, do: 
-`python hw2.py`
+`python deep_memm.py`
 
 This will save the best parameters in a file `model.pt` and perform inference as well. 
 
